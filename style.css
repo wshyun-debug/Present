@@ -1,0 +1,38 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 360px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+button:disabled {
+  background: #aaa;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 22px;
+}
